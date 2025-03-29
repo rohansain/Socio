@@ -1,6 +1,21 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+.app-container{
+  display: flex;
+}
+.app-content{
+  width: 100%;
+}
+.app-sidebar{
+  min-height: 800px;
+}
+.hastags{
+  margin: 0px 3px;
+}
+.card-reactions{
+  margin-top: 5px;
+  width: 100%;
+}
+.app-form{
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 5%;
 }

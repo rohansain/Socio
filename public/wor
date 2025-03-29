@@ -2,3 +2,4 @@ create project
 install dependency
 install bootstrap
 install react-icon
+create folder components and store in src
