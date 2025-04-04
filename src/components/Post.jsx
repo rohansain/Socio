@@ -20,7 +20,7 @@
                         <span key={index} className="badge text-bg-primary hastags">{tag}</span>
                     ))}
                     <div className="alert alert-success card-reactions" role="alert">
-                        This Post has been reacted by {post.reactions} People
+                    <p>Reactions: {post.reactions.likes} 👍 | {post.reactions.dislikes} 👎</p>
                     </div>
                 </div>
             </div>
